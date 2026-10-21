@@ -1,0 +1,13 @@
+{
+  "method": "calibration_percentile_bounds",
+  "source": "data/processed/normal_calibration_sequences.npy",
+  "alpha": 1.0,
+  "rarity": {
+    "lower": 0.6473273038864136,
+    "upper": 5.574893951416016
+  },
+  "transition": {
+    "lower": 0.7123962640762329,
+    "upper": 8.247760772705078
+  }
+}

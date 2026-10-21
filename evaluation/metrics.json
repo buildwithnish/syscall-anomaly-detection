@@ -1,0 +1,32 @@
+{
+    "model": {
+        "architecture": "LSTM Autoencoder",
+        "embedding_dim": 32,
+        "hidden_dim": 64,
+        "sequence_length": 20,
+        "vocabulary_size": 110,
+        "unknown_token": "<UNK>"
+    },
+    "threshold": {
+        "value": 0.3048102855682373,
+        "method": "normal_calibration_99th_percentile",
+        "target_fpr": 0.01
+    },
+    "normal_test": {
+        "sequences": 99981,
+        "false_positives": 2731,
+        "false_positive_rate": 0.027315189886078353
+    },
+    "isolated_workload_1": {
+        "sequences": 99981,
+        "detected": 99946,
+        "missed": 35,
+        "detection_rate": 0.9996499334873626
+    },
+    "isolated_workload_2": {
+        "sequences": 1399,
+        "detected": 122,
+        "missed": 1277,
+        "detection_rate": 0.08720514653323802
+    }
+}

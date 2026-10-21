@@ -1,0 +1,6 @@
+{
+    "value": 0.3102995455265045,
+    "method": "normal_calibration_99th_percentile",
+    "target_fpr": 0.01,
+    "calibration_sequences": 99981
+}

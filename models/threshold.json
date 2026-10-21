@@ -1,0 +1,8 @@
+{
+    "threshold": 0.3048102855682373,
+    "method": "normal_calibration_99th_percentile",
+    "calibration_dataset": "normal_calibration_sequences.npy",
+    "calibration_sequences": 99981,
+    "target_fpr": 0.01,
+    "observed_calibration_fpr": 0.01
+}

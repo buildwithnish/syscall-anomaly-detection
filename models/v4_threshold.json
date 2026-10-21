@@ -1,0 +1,7 @@
+{
+  "model": "V4 Hybrid Behavioral Scoring",
+  "threshold": 0.2981395423412323,
+  "method": "normal_calibration_99th_percentile",
+  "target_fpr": 0.01,
+  "calibration_sequences": 99981
+}

@@ -1,0 +1,7 @@
+{
+    "method": "normal_calibration_99th_percentile",
+    "feature": "v5_hybrid_score",
+    "threshold": 0.3102995455265045,
+    "target_fpr": 0.01,
+    "calibration_sequences": 99981
+}

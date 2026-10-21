@@ -1,0 +1,18 @@
+{
+  "method": "normal_1st_99th_percentile",
+  "source": "data/raw/v2_normal/normal_v2.jsonl",
+  "sequence_length": 20,
+  "rarity": {
+    "lower": 0.6471609473228455,
+    "upper": 6.1350226402282715
+  },
+  "transition": {
+    "lower": 0.7099559307098389,
+    "upper": 8.622745513916016
+  },
+  "weights": {
+    "reconstruction": 0.7,
+    "rarity": 0.15,
+    "transition": 0.15
+  }
+}
